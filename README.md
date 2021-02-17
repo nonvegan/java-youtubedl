@@ -1,5 +1,5 @@
 # java-youtubedl
 
-Download youtube videos using youtube-dl.
+Java GUI for the youtube-dl program.
 
 ![java youtube-dl](mainWindow.png)
