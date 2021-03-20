@@ -20,9 +20,7 @@ public class Arranque {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        Consola consola = new Consola();
-        new MainWindow(new Sistema().readSistema(null), consola).setVisible(true);
-
+        new MainWindow(new Sistema().readSistema(null), new Consola()).setVisible(true);
     }
 
 }
